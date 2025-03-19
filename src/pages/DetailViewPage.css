@@ -1,0 +1,39 @@
+/* DetailViewPage.css */
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #e0f2f1;
+}
+
+.card {
+  background-color: #ffffff;
+  padding: 40px;
+  border-radius: 16px;
+  box-shadow: 0 15px 35px rgba(0,0,0,0.1);
+  width: 100%;
+  max-width: 600px;
+}
+
+.title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #004d40;
+}
+
+.content {
+  font-size: 1.2rem;
+  color: #00695c;
+}
+
+.meta {
+  font-size: 1rem;
+  color: #00796b;
+}
+
+.loading {
+  font-size: 1.5rem;
+  color: #004d40;
+  text-align: center;
+}
